@@ -1,2 +1,3 @@
 FROM jboss/wildfly
-ADD node-info.war /opt/jboss/wildfly/standalone/deployments/
+ADD standalone.xml /opt/jboss/wildfly/standalone/configuration/
+ADD helloworld.war /opt/jboss/wildfly/standalone/deployments/
