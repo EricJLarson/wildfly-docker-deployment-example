@@ -8,9 +8,11 @@
 4. Use `curl` to see the app working:
 
         $ curl http://localhost:8080/node-info/
-        Hostname: f740c76cd66c
-        Java Runtime: OpenJDK Runtime Environment 1.7.0_60-mockbuild_2014_06_19_16_23-b00
-        OS: Linux amd64 3.15.4-200.fc20.x86_64
+```
+<html><head><title>helloworld</title></head><body>
+<h1>Hello World!</h1>
+</body></html>
+```
 
 ## Example log
 
@@ -56,5 +58,5 @@ $ docker run -it wildfly-app
 
 ## Application source code
 
-To create _helloworld.war_ clone [Quickstart repo](https://github.com/wildfly/quickstart.git), then in _quickstart/helloworld/_ run `mvn package`.  kj:w
+To create _helloworld.war_ clone [Quickstart repo](https://github.com/wildfly/quickstart.git), then in _quickstart/helloworld/_ run `mvn package`.
 
