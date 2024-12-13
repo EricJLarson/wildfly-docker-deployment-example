@@ -15,5 +15,7 @@ RUN yum -y update
 RUN yum -y install epel-release
 RUN yum -y install python3 python3-pip
 
+ADD tests/validate_tls.py /opt/jboss
+
 USER jboss 
 
